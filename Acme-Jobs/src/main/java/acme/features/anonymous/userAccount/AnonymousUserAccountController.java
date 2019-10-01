@@ -32,8 +32,8 @@ public class AnonymousUserAccountController extends AbstractController<Anonymous
 	@Autowired
 	private AnonymousUserAccountCreateService createService;
 
-
 	// Constructors -----------------------------------------------------------
+
 
 	@PostConstruct
 	private void initialise() {
