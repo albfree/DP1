@@ -35,8 +35,8 @@ public class AuthenticatedProviderController extends AbstractController<Authenti
 	@Autowired
 	private AuthenticatedProviderUpdateService	updateService;
 
-
 	// Constructors -----------------------------------------------------------
+
 
 	@PostConstruct
 	private void initialise() {
