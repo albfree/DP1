@@ -27,4 +27,5 @@ The following tools and components are required:
 	- Lombok 1.18.8
 
 # Sergio Garrido Domínguez sergardom@alum.us.es sergiotb15@gmail.com
+# Alberto Guerrero Ramírez albgueram@alum.us.es albergr1197@gmail.com
 
