@@ -28,3 +28,5 @@ The following tools and components are required:
 
 # Sergio Garrido Domínguez sergardom@alum.us.es sergiotb15@gmail.com
 # José Manuel Lobato Troncoso joslobtro@alum.us.es jmanuellt8@gmail.com
+
+# Brayan Nicolás Pérez Cobos brapercob@alum.us.es brayanpercob@gmail.com

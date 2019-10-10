@@ -20,6 +20,8 @@
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="https://www.instagram.com/josemanuel_lobato/"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.brapercob" action="https://github.com/brapercob"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
