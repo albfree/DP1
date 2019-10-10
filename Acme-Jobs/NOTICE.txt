@@ -31,3 +31,4 @@ The following tools and components are required:
 # José Manuel Lobato Troncoso joslobtro@alum.us.es jmanuellt8@gmail.com
 # Brayan Nicolás Pérez Cobos brapercob@alum.us.es brayanpercob@gmail.com
 # Alberto Guerrero Ramírez albgueram@alum.us.es albergr1197@gmail.com
+# Carlos Ruiz Briones carruibri@alum.us.es carlosrb96@gmail.com

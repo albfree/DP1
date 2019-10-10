@@ -28,6 +28,8 @@
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-diego" action="https://github.com/DiegoHorrilloDuran"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.albgueram" action="https://github.com/albfree"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.carruibri" action="https://www.linkedin.com/in/carlos-ruiz-briones-bb8401173/"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
