@@ -26,6 +26,8 @@
 			<acme:menu-suboption code="master.menu.anonymous.linkedin-sergio" action="https://www.linkedin.com/in/sergio-garrido-dom%C3%ADnguez-5a58b2174/"/>
             <acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-diego" action="https://github.com/DiegoHorrilloDuran"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.albgueram" action="https://github.com/albfree"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

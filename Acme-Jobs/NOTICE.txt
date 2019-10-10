@@ -30,3 +30,4 @@ The following tools and components are required:
 # Diego Horrillo Durán diehordur@alum.us.es petakaaracena@gmail.com
 # José Manuel Lobato Troncoso joslobtro@alum.us.es jmanuellt8@gmail.com
 # Brayan Nicolás Pérez Cobos brapercob@alum.us.es brayanpercob@gmail.com
+# Alberto Guerrero Ramírez albgueram@alum.us.es albergr1197@gmail.com
