@@ -22,6 +22,8 @@
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="https://www.instagram.com/josemanuel_lobato/"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.brapercob" action="https://github.com/brapercob"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.linkedin-sergio" action="https://www.linkedin.com/in/sergio-garrido-dom%C3%ADnguez-5a58b2174/"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
