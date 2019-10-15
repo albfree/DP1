@@ -19,7 +19,7 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="https://www.instagram.com/josemanuel_lobato/"/>
+            <acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.brapercob" action="https://github.com/brapercob"/>
 			<acme:menu-separator/>
@@ -30,6 +30,9 @@
 			<acme:menu-suboption code="master.menu.anonymous.albgueram" action="https://github.com/albfree"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.carruibri" action="https://www.linkedin.com/in/carlos-ruiz-briones-bb8401173/"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.github-josemanuel" action="https://github.com/jmanuellt8"/>
+		
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
