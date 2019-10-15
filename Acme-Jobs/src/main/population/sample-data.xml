@@ -17,4 +17,22 @@
 
 	<import resource="conversion-service.xml" />
 
+	<bean id="shout" class="acme.entities.shouts.Shout">
+		<property name="author" value="Sergio Garrido Domínguez"/>
+		<property name="text" value="Shout 01"/>
+		<property name="moment" value="2019/10/15 11:10"/>
+	</bean>
+	
+	<bean id="shout1" class="acme.entities.shouts.Shout">
+		<property name="author" value="Sergio Garrido Domínguez"/>
+		<property name="text" value="Shout 02"/>
+		<property name="moment" value="2019/10/15 11:15"/>
+	</bean>
+	
+	<bean id="shout2" class="acme.entities.shouts.Shout">
+		<property name="author" value="Sergio Garrido Domínguez"/>
+		<property name="text" value="Shout 03"/>
+		<property name="moment" value="2019/10/15 11:20"/>
+	</bean>
+
 </beans>
