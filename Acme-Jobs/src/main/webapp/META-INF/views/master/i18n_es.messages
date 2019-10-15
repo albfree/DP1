@@ -16,7 +16,7 @@ master.banner.background = #FFE97F
 
 master.welcome.title = ¡Bienvenidos!
 master.welcome.text = \
-	Bienvenidos a Acme Stater!  Nunca antes ha sido tan sencillo desarrollar un \
+	Bienvenidos a Acme Jobs!  Nunca antes ha sido tan sencillo desarrollar un \
 	proyecto y hacerlo funcionar.
 
 # master.menu #################################################################
@@ -36,6 +36,8 @@ master.menu.anonymous.favourite-link-diego = Diego Horrillo
 master.menu.anonymous.albgueram = Alberto's Github
 master.menu.anonymous.carruibri = LinkedIn de Carlos
 master.menu.anonymous.github-josemanuel = Enlace al Github de Jose Manuel
+master.menu.anonymous.shouts.list = Gritos
+master.menu.anonymous.shouts.create = Crear grito
 
 # master.menu.administrator ###################################################
 
