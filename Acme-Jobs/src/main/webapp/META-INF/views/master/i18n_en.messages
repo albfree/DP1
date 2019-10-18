@@ -38,6 +38,8 @@ master.menu.anonymous.carruibri = Carlos' LinkedIn
 master.menu.anonymous.github-josemanuel = Link to Jose Manuel's Github
 master.menu.anonymous.shouts.list = List Shouts
 master.menu.anonymous.shouts.create = Create Shout
+master.menu.anonymous.perezBulletin.list = List Perez bulletins
+master.menu.anonymous.perezBulletin.create = Create Perez bulletin
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator

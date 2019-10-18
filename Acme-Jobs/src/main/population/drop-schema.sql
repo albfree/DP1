@@ -27,6 +27,8 @@
 
     drop table if exists `consumer`;
 
+    drop table if exists `perez_bulletin`;
+
     drop table if exists `provider`;
 
     drop table if exists `shout`;
