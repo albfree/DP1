@@ -32,7 +32,14 @@
 			<acme:menu-suboption code="master.menu.anonymous.carruibri" action="https://www.linkedin.com/in/carlos-ruiz-briones-bb8401173/"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.github-josemanuel" action="https://github.com/jmanuellt8"/>
-		
+			<acme:menu-separator/>			
+			<acme:menu-suboption code="master.menu.anonymous.manuelBulletin.list" action="/anonymous/manuel-bulletin/list" />
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.manuelBulletin.create" action="/anonymous/manuel-bulletin/create" />
+			<acme:menu-separator/>
+			
+			
+			
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
