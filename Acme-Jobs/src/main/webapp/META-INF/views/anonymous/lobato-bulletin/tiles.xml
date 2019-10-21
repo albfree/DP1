@@ -18,12 +18,12 @@
 
 <tiles-definitions>
 
-	<definition name="anonymous/manuel-bulletin/list" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/manuel-bulletin/list.jsp" />
+	<definition name="anonymous/lobato-bulletin/list" extends="master">
+		<put-attribute name="body" type="template" value="../anonymous/lobato-bulletin/list.jsp" />
 	</definition>
 
-		<definition name="anonymous/manuel-bulletin/form" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/manuel-bulletin/form.jsp" />
+		<definition name="anonymous/lobato-bulletin/form" extends="master">
+		<put-attribute name="body" type="template" value="../anonymous/lobato-bulletin/form.jsp" />
 	</definition>
 
 </tiles-definitions>

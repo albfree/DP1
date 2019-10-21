@@ -1,12 +1,12 @@
 
-package acme.features.anonymous.manuelBulletin;
+package acme.features.anonymous.lobatoBulletin;
 
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.bulletins.ManuelBulletin;
+import acme.entities.bulletins.LobatoBulletin;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
@@ -14,21 +14,21 @@ import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractCreateService;
 
 @Service
-public class AnonymousManuelBulletinCreateService implements AbstractCreateService<Anonymous, ManuelBulletin> {
+public class AnonymousLobatoBulletinCreateService implements AbstractCreateService<Anonymous, LobatoBulletin> {
 
 	@Autowired
-	private AnonymousManuelBulletinRepository repository;
+	private AnonymousLobatoBulletinRepository repository;
 
 
 	@Override
-	public boolean authorise(final Request<ManuelBulletin> request) {
+	public boolean authorise(final Request<LobatoBulletin> request) {
 		assert request != null;
 
 		return true;
 	}
 
 	@Override
-	public void bind(final Request<ManuelBulletin> request, final ManuelBulletin entity, final Errors errors) {
+	public void bind(final Request<LobatoBulletin> request, final LobatoBulletin entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
@@ -37,7 +37,7 @@ public class AnonymousManuelBulletinCreateService implements AbstractCreateServi
 	}
 
 	@Override
-	public void unbind(final Request<ManuelBulletin> request, final ManuelBulletin entity, final Model model) {
+	public void unbind(final Request<LobatoBulletin> request, final LobatoBulletin entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
@@ -46,9 +46,9 @@ public class AnonymousManuelBulletinCreateService implements AbstractCreateServi
 	}
 
 	@Override
-	public ManuelBulletin instantiate(final Request<ManuelBulletin> request) {
+	public LobatoBulletin instantiate(final Request<LobatoBulletin> request) {
 		assert request != null;
-		ManuelBulletin bulletin = new ManuelBulletin();
+		LobatoBulletin bulletin = new LobatoBulletin();
 		bulletin.setWriter("");
 		bulletin.setSubject("");
 		bulletin.setMoment(new Date(System.currentTimeMillis() - 1));
@@ -57,7 +57,7 @@ public class AnonymousManuelBulletinCreateService implements AbstractCreateServi
 	}
 
 	@Override
-	public void validate(final Request<ManuelBulletin> request, final ManuelBulletin entity, final Errors errors) {
+	public void validate(final Request<LobatoBulletin> request, final LobatoBulletin entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
@@ -65,7 +65,7 @@ public class AnonymousManuelBulletinCreateService implements AbstractCreateServi
 	}
 
 	@Override
-	public void create(final Request<ManuelBulletin> request, final ManuelBulletin entity) {
+	public void create(final Request<LobatoBulletin> request, final LobatoBulletin entity) {
 		assert request != null;
 		assert entity != null;
 

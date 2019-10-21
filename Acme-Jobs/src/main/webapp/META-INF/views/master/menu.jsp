@@ -33,9 +33,9 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.github-josemanuel" action="https://github.com/jmanuellt8"/>
 			<acme:menu-separator/>			
-			<acme:menu-suboption code="master.menu.anonymous.manuelBulletin.list" action="/anonymous/manuel-bulletin/list" />
+			<acme:menu-suboption code="master.menu.anonymous.lobatoBulletin.list" action="/anonymous/lobato-bulletin/list" />
 			<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.anonymous.manuelBulletin.create" action="/anonymous/manuel-bulletin/create" />
+			<acme:menu-suboption code="master.menu.anonymous.lobatoBulletin.create" action="/anonymous/lobato-bulletin/create" />
 			<acme:menu-separator/>
 			
 			

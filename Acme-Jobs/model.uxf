@@ -305,7 +305,7 @@ has v</panel_attributes>
       <h>91</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
-ManuelBulletin
+LobatoBulletin
 --
 + moment: Date {Temporal(TIMESTAM), Past}
 + writer: String {NotBlank}

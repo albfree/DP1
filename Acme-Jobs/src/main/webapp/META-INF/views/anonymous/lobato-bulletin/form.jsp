@@ -17,10 +17,10 @@
 
 <acme:form>
 
-	<acme:form-textbox code="bulletinManuel.writer" path="writer"/>
-	<acme:form-textbox code="bulletinManuel.subject" path="subject"/>
+	<acme:form-textbox code="bulletinLobato.writer" path="writer"/>
+	<acme:form-textbox code="bulletinLobato.subject" path="subject"/>
 
-	<acme:form-submit code="anonymous.create" action="/anonymous/manuel-bulletin/create"/>
+	<acme:form-submit code="anonymous.create" action="/anonymous/lobato-bulletin/create"/>
 	<acme:form-return code="anonymous.return"/>
 
 </acme:form> 

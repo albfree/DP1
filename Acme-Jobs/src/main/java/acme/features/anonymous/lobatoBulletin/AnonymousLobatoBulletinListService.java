@@ -1,33 +1,33 @@
 
-package acme.features.anonymous.manuelBulletin;
+package acme.features.anonymous.lobatoBulletin;
 
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.bulletins.ManuelBulletin;
+import acme.entities.bulletins.LobatoBulletin;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnonymousManuelBulletinListService implements AbstractListService<Anonymous, ManuelBulletin> {
+public class AnonymousLobatoBulletinListService implements AbstractListService<Anonymous, LobatoBulletin> {
 
 	@Autowired
-	private AnonymousManuelBulletinRepository repository;
+	private AnonymousLobatoBulletinRepository repository;
 
 
 	@Override
-	public boolean authorise(final Request<ManuelBulletin> request) {
+	public boolean authorise(final Request<LobatoBulletin> request) {
 		assert request != null;
 
 		return true;
 	}
 
 	@Override
-	public void unbind(final Request<ManuelBulletin> request, final ManuelBulletin entity, final Model model) {
+	public void unbind(final Request<LobatoBulletin> request, final LobatoBulletin entity, final Model model) {
 
 		assert request != null;
 		assert entity != null;
@@ -37,7 +37,7 @@ public class AnonymousManuelBulletinListService implements AbstractListService<A
 	}
 
 	@Override
-	public Collection<ManuelBulletin> findMany(final Request<ManuelBulletin> request) {
+	public Collection<LobatoBulletin> findMany(final Request<LobatoBulletin> request) {
 		assert request != null;
 
 		//Another option for this findMany is findAll

@@ -17,8 +17,8 @@
 
 <acme:list readonly="true">
 
-	<acme:list-column code="bulletinManuel.moment" path="moment" width="20%" />
-	<acme:list-column code="bulletinManuel.writer" path="writer" width="50%" />
-	<acme:list-column code="bulletinManuel.subject" path="subject" width="30%" />
+	<acme:list-column code="bulletinLobato.moment" path="moment" width="20%" />
+	<acme:list-column code="bulletinLobato.writer" path="writer" width="50%" />
+	<acme:list-column code="bulletinLobato.subject" path="subject" width="30%" />
 
 </acme:list> 

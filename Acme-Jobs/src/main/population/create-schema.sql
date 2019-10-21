@@ -29,7 +29,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `manuel_bulletin` (
+    create table `lobato_bulletin` (
        `id` integer not null,
         `version` integer not null,
         `moment` datetime(6),

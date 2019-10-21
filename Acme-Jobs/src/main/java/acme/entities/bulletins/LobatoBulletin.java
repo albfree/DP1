@@ -16,7 +16,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class ManuelBulletin extends DomainEntity {
+public class LobatoBulletin extends DomainEntity {
 
 	private static final long	serialVersionUID	= 1L;
 

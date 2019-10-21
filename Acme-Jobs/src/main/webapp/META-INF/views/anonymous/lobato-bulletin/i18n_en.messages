@@ -1,4 +1,4 @@
-# i18n_es.messages
+# i18n_en.messages
 #
 # Copyright (c) 2019 Rafael Corchuelo.
 #
@@ -8,8 +8,8 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-bulletinManuel.moment= Momento
-bulletinManuel.writer= Escritor
-bulletinManuel.subject= Asignatura
-anonymous.return = Cancelar
-anonymous.create = Enviar
+bulletinLobato.moment= Moment
+bulletinLobato.writer= Writer
+bulletinLobato.subject= Subject
+anonymous.return = Return
+anonymous.create = Create
