@@ -16,5 +16,25 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
+	
+	<!-- HorrilloBulletins -->
+
+	<bean id="horrilloBulletin01" class="acme.entities.bulletins.HorrilloBulletin">
+		<property name="title" value="John: Report" />
+		<property name="text" value="All good" />
+		<property name="moment" value="2019/06/09 15:33" />
+	</bean>
+
+	<bean id="horrilloBulletin02" class="acme.entities.bulletins.HorrilloBulletin">
+		<property name="title" value="Diego" />
+		<property name="text" value="I dont know nothing" />
+		<property name="moment" value="2019/08/11 12:05" />
+	</bean>
+
+	<bean id="horrilloBulletin03" class="acme.entities.bulletins.HorrilloBulletin">
+		<property name="title" value="Joaquin" />
+		<property name="text" value="I'm a phoenix" />
+		<property name="moment" value="2019/10/10 22:10" />
+	</bean>
 
 </beans>
