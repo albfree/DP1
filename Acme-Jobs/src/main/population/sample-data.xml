@@ -16,5 +16,23 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
+	
+	<bean id="brionesBulletin1" class="acme.entities.bulletins.BrionesBulletin">
+	<property name="name" value="Descartes"/>
+	<property name="quote" value="cogito ergo sum"/>
+	<property name="moment" value="2007/05/23 17:59"/>
+	</bean>
+	
+	<bean id="brionesBulletin2" class="acme.entities.bulletins.BrionesBulletin">
+	<property name="name" value="Steve Jobs"/>
+	<property name="quote" value="Your time is limited. So don't waste it living someone else's life"/>
+	<property name="moment" value="2006/04/21 18:30"/>
+	</bean>
+	
+	<bean id="brionesBulletin3" class="acme.entities.bulletins.BrionesBulletin">
+	<property name="name" value="Mahatma Gandhi"/>
+	<property name="quote" value="No hay camino para la verdad, la verdad es el camino"/>
+	<property name="moment" value="2018/09/11 12:21"/>
+	</bean>
 
 </beans>

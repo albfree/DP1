@@ -37,6 +37,15 @@
         `sector` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
+    
+    create table `briones_bulletin` (
+    `id` integer not null,
+    `version` integer not null,
+    `moment` datetime(6),
+    `name` varchar(256),
+    `quote` varchar(256),
+    primary key (`id`)
+    ) engine=InnoDB;
 
     create table `user_account` (
        `id` integer not null,
