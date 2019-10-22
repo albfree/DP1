@@ -1,5 +1,5 @@
 
-package acme.features.anonymous.bulletins;
+package acme.features.anonymous.bulletins.guerreroBulletin;
 
 import java.util.Date;
 
