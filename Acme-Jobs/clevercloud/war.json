@@ -6,7 +6,7 @@
   "deploy": {
     "container": "TOMCAT8",
     "war": [{
-      "file": "target/acme-jobs.war",
+      "file": "target/Acme-Jobs.war",
       "context": "/",
       "port": "80"
     }]
