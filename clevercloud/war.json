@@ -5,10 +5,12 @@
   },
   "deploy": {
     "container": "TOMCAT8",
-    "war": [{
-      "file": "target/Acme-Jobs-1.0.war",
-      "context": "/",
-      "port": 80
-    }]
+    "war": [
+      {
+        "file": "target/Acme-Jobs-1.0.war",
+        "context": "/",
+        "port": 80
+      }
+    ]
   }
 }
