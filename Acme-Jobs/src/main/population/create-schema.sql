@@ -65,6 +65,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `horrillo_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `moment` datetime(6),
+        `text` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `provider` (
        `id` integer not null,
         `version` integer not null,

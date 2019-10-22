@@ -27,6 +27,8 @@
 	<property name="quote" value="No hay camino para la verdad, la verdad es el camino"/>
 	<property name="moment" value="2018/09/11 12:21"/>
 	</bean>
+	
+	<!-- HorrilloBulletins -->
 
 
 	<bean id="garridoBulletin1" class="acme.entities.bulletins.GarridoBulletin">
@@ -125,5 +127,23 @@
 	</bean>
 
 	
+
+	<bean id="horrilloBulletin01" class="acme.entities.bulletins.HorrilloBulletin">
+		<property name="title" value="John: Report" />
+		<property name="text" value="All good" />
+		<property name="moment" value="2019/06/09 15:33" />
+	</bean>
+
+	<bean id="horrilloBulletin02" class="acme.entities.bulletins.HorrilloBulletin">
+		<property name="title" value="Diego" />
+		<property name="text" value="I dont know nothing" />
+		<property name="moment" value="2019/08/11 12:05" />
+	</bean>
+
+	<bean id="horrilloBulletin03" class="acme.entities.bulletins.HorrilloBulletin">
+		<property name="title" value="Joaquin" />
+		<property name="text" value="I'm a phoenix" />
+		<property name="moment" value="2019/10/10 22:10" />
+	</bean>
 
 </beans>

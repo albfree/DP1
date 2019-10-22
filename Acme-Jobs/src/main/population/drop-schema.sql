@@ -35,6 +35,8 @@
 
     drop table if exists `lobato_bulletin`;
 
+    drop table if exists `horrillo_bulletin`;
+
     drop table if exists `provider`;
     
     drop table if exists `briones_bulletin`;
