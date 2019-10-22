@@ -105,4 +105,25 @@
 		<property name="moment" value="2010/12/08 11:00" />
 	</bean>
 
+
+	<bean id="lobatoBulletin1" class="acme.entities.bulletins.LobatoBulletin">
+		<property name="moment" value="2017/05/05 09:15" />
+		<property name="writer" value="Pablo Delgado" />
+		<property name="subject" value="Fundamentos físicos de la informática" />
+	</bean>
+	
+	<bean id="lobatoBulletin2" class="acme.entities.bulletins.LobatoBulletin">
+		<property name="moment" value="2017/03/05 08:45" />
+		<property name="writer" value="Víctor Guerrero" />
+		<property name="subject" value="Matemáticas" />
+	</bean>
+	
+	<bean id="lobatoBulletin3" class="acme.entities.bulletins.LobatoBulletin">
+		<property name="moment" value="2017/04/05 10:00" />
+		<property name="writer" value="Antonio Morado" />
+		<property name="subject" value="Derecho Informático" />
+	</bean>
+
+	
+
 </beans>

@@ -40,6 +40,8 @@ master.menu.anonymous.shouts.list = List Shouts
 master.menu.anonymous.shouts.create = Create Shout
 master.menu.anonymous.perezBulletin.list = List Perez bulletins
 master.menu.anonymous.perezBulletin.create = Create Perez bulletin
+master.menu.anonymous.lobatoBulletin.list = LobatoBulletin's list
+master.menu.anonymous.lobatoBulletin.create = Create LobatoBulletin
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator

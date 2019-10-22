@@ -34,14 +34,13 @@
 			<acme:menu-separator />
 			<acme:menu-suboption code="master.menu.anonymous.github-josemanuel" action="https://github.com/jmanuellt8" />
 			<acme:menu-separator />
-			<acme:menu-suboption code="master.menu.anonymous.shouts.list" action="/anonymous/shout/list" />
-			<acme:menu-separator />
-			<acme:menu-suboption code="master.menu.anonymous.shouts.create" action="/anonymous/shout/create" />
-			<acme:menu-separator />
 			<acme:menu-suboption code="master.menu.anonymous.perezBulletin.list" action="/anonymous/perez-bulletin/list" />
-			<acme:menu-separator />
 			<acme:menu-suboption code="master.menu.anonymous.perezBulletin.create" action="/anonymous/perez-bulletin/create" />
 			<acme:menu-separator />
+			<acme:menu-separator />
+			<acme:menu-suboption code="master.menu.anonymous.lobatoBulletin.list" action="/anonymous/lobato-bulletin/list" />
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.lobatoBulletin.create" action="/anonymous/lobato-bulletin/create" />
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
