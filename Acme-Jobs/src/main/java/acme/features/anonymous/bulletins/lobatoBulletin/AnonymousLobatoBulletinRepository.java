@@ -1,5 +1,5 @@
 
-package acme.features.anonymous.lobatoBulletin;
+package acme.features.anonymous.bulletins.lobatoBulletin;
 
 import java.util.Collection;
 

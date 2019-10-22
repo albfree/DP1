@@ -25,23 +25,21 @@
 
     drop table if exists `authenticated`;
 
-    drop table if exists `consumer`;
+    drop table if exists `briones_bulletin`;
 
-    drop table if exists `perez_bulletin`;
+    drop table if exists `consumer`;
 
     drop table if exists `garrido_bulletin`;
 
     drop table if exists `guerrero_bulletin`;
 
-    drop table if exists `lobato_bulletin`;
-
     drop table if exists `horrillo_bulletin`;
 
-    drop table if exists `provider`;
-    
-    drop table if exists `briones_bulletin`;
+    drop table if exists `lobato_bulletin`;
 
-    drop table if exists `shout`;
+    drop table if exists `perez_bulletin`;
+
+    drop table if exists `provider`;
 
     drop table if exists `user_account`;
 

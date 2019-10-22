@@ -20,6 +20,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `briones_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `moment` datetime(6),
+        `name` varchar(255),
+        `quote` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `consumer` (
        `id` integer not null,
         `version` integer not null,
@@ -38,30 +47,12 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `perez_bulletin` (
-       `id` integer not null,
-        `version` integer not null,
-        `content` varchar(255),
-        `moment` datetime(6),
-        `title` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
     create table `guerrero_bulletin` (
        `id` integer not null,
         `version` integer not null,
         `moment` datetime(6),
         `name` varchar(255),
         `quote` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
-    create table `lobato_bulletin` (
-       `id` integer not null,
-        `version` integer not null,
-        `moment` datetime(6),
-        `subject` varchar(255),
-        `writer` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -74,30 +65,30 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `lobato_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `moment` datetime(6),
+        `subject` varchar(255),
+        `writer` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `perez_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `content` varchar(255),
+        `moment` datetime(6),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `provider` (
        `id` integer not null,
         `version` integer not null,
         `user_account_id` integer,
         `company` varchar(255),
         `sector` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-    
-    create table `briones_bulletin` (
-    `id` integer not null,
-    `version` integer not null,
-    `moment` datetime(6),
-    `name` varchar(256),
-    `quote` varchar(256),
-    primary key (`id`)
-    ) engine=InnoDB;
-
-    create table `shout` (
-       `id` integer not null,
-        `version` integer not null,
-        `author` varchar(255),
-        `moment` datetime(6),
-        `text` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
