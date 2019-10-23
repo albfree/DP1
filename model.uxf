@@ -328,8 +328,8 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>231</x>
-      <y>378</y>
+      <x>238</x>
+      <y>483</y>
       <w>217</w>
       <h>84</h>
     </coordinates>
@@ -338,30 +338,15 @@ GarridoBulletin
 --
 + name: String {NotBlank}
 + quote: String {NotBlank}
-+ moment: Date{Past, Temporal(TIMESTAMP)}</panel_attributes>
++ moment: Date{Past, Temporal(TIMESTAMP)}
+bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>168</x>
-      <y>294</y>
-      <w>217</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Entity&gt;&gt;
-Shout 
---
-+ moment: Date {Temporal(TIMESTAMP), Past}
-+ author: String {NotBlank}
-+ text: String {NotBlank}</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>168</x>
-      <y>392</y>
+      <x>14</x>
+      <y>483</y>
       <w>217</w>
       <h>84</h>
     </coordinates>
@@ -371,32 +356,34 @@ perezBulletin
 + moment: Date {Temporal(TIMESTAMP), Past}
 + title: String {NotBlank}
 + content: String {NotBlank}
-</panel_attributes>
+
+bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>231</x>
-      <y>364</y>
+      <x>462</x>
+      <y>483</y>
       <w>224</w>
-      <h>77</h>
+      <h>84</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 GuerreroBulletin
 --
 + name: String {NotBlank}
 + quote: String {NotBlank}
-+ moment: Date{Past, Temporal(TIMESTAMP)}</panel_attributes>
++ moment: Date{Past, Temporal(TIMESTAMP)}
+bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>385</x>
-      <y>420</y>
-      <w>140</w>
-      <h>77</h>
+      <x>14</x>
+      <y>392</y>
+      <w>217</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 BrionesBulletin
@@ -404,39 +391,42 @@ BrionesBulletin
 + name: String {NotBlank}
 + quote: String {NotBlank}
 + moment: Date {Past, Temporal(TIMESTAMP)}
-</panel_attributes>
+
+bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>322</x>
-      <y>371</y>
-      <w>210</w>
-      <h>91</h>
+      <x>336</x>
+      <y>49</y>
+      <w>217</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 LobatoBulletin
 --
 + moment: Date {Temporal(TIMESTAM), Past}
 + writer: String {NotBlank}
-+ subject: String {NotBlank}</panel_attributes>
++ subject: String {NotBlank}
+bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>182</x>
-      <y>287</y>
-      <w>231</w>
-      <h>70</h>
+      <x>168</x>
+      <y>294</y>
+      <w>217</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 horrilloNulletin
 --
 + title: String{NotBlank}
 + text: String{NotBlank}
-+ moment: Date (Temporal(TIMESTAMP),Past)</panel_attributes>
++ moment: Date (Temporal(TIMESTAMP),Past)
+bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
