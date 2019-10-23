@@ -1,5 +1,3 @@
-use `bwzlz6pucdfltleo2xr1`;
-
 -- MySQL dump 10.13  Distrib 8.0.17, for Win64 (x86_64)
 --
 -- Host: localhost    Database: acme-jobs
@@ -359,7 +357,7 @@ CREATE TABLE `user_account` (
 
 LOCK TABLES `user_account` WRITE;
 /*!40000 ALTER TABLE `user_account` DISABLE KEYS */;
-INSERT INTO `user_account` VALUES (1,0,_binary '\0','john.doe@acme.com','John','Doe','$2a$05$o7OuRBs5loIyfpogxLrn5uffJG36axZM84uuz8Rdkk9ruygljfrrS','anonymous'),(3,0,_binary '','administrator@acme.com','Administrator','Acme.com','$2a$05$Q6dC7j4GJqZ1QGX5JP7V2.GqfsDDvmz9qL/JFONAZcwoSHSCxJs7.','administrator');
+INSERT INTO `user_account` VALUES (1,0,_binary '\0','john.doe@acme.com','John','Doe','$2a$05$ZyoiPgm7WL.LQtgdbTdS2uL.j7PmBauf75GEd0OqNymrG5suitZxe','anonymous'),(3,0,_binary '','administrator@acme.com','Administrator','Acme.com','$2a$05$BerJJRhUqYucNaN5z/le9eh7VsQXAj2ossQCuYZG320rcMTRttuLy','administrator');
 /*!40000 ALTER TABLE `user_account` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -380,4 +378,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-10-22 11:09:55
+-- Dump completed on 2019-10-23 12:17:18
