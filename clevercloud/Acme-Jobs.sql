@@ -360,14 +360,6 @@ LOCK TABLES `user_account` WRITE;
 INSERT INTO `user_account` VALUES (1,0,_binary '\0','john.doe@acme.com','John','Doe','$2a$05$ZyoiPgm7WL.LQtgdbTdS2uL.j7PmBauf75GEd0OqNymrG5suitZxe','anonymous'),(3,0,_binary '','administrator@acme.com','Administrator','Acme.com','$2a$05$BerJJRhUqYucNaN5z/le9eh7VsQXAj2ossQCuYZG320rcMTRttuLy','administrator');
 /*!40000 ALTER TABLE `user_account` ENABLE KEYS */;
 UNLOCK TABLES;
-
---
--- Dumping events for database 'acme-jobs'
---
-
---
--- Dumping routines for database 'acme-jobs'
---
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -378,4 +370,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-10-23 12:32:52
+-- Dump completed on 2019-10-23 12:40:51
