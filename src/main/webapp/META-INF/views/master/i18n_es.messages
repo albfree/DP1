@@ -104,3 +104,25 @@ master.license.text = \
 	lenguage.  Además, almacenamos un ítem llamado "returnStack" en el almacenamiento \
 	local de su navegador para saber dónde tienen que ir algunos botones.
 	
+# master.bulletins ############################################################
+
+master.menu.bulletins.list = Lista de bulletins
+master.menu.bulletins.create = Crear un bulletin
+
+master.menu.anonymous.lobatoBulletin.list = Lista de bulletins de Lobato
+master.menu.anonymous.lobatoBulletin.create = Crear bulletin de Lobato
+
+master.menu.anonymous.garridoBulletin.list = Lista de bulletins de Garrido
+master.menu.anonymous.garridoBulletin.create = Crear bulletin de Garrido
+
+master.menu.anonymous.brionesBulletin.list = Lista de bulletins de Briones
+master.menu.anonymous.brionesBulletin.create = Crear bulletin de Briones
+
+master.menu.anonymous.guerreroBulletin.list = Lista de bulletins de Guerrero
+master.menu.anonymous.guerreroBulletin.create =  Crear bulletin de Guerrero
+
+master.menu.anonymous.horrilloBulletin.list = Lista de bulletins de Horrillo
+master.menu.anonymous.horrilloBulletin.create = Crear bulletin de Horrillo
+
+master.menu.anonymous.perezBulletin.list = Lista de bulletins de Perez
+master.menu.anonymous.perezBulletin.create = Crear bulletin de Perez

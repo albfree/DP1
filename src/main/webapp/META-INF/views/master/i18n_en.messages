@@ -103,3 +103,26 @@ master.license.text = \
 	automatically for a maximum of 31 days, and "language" to store your language \
 	preferences. Additionally, we store an item called "returnStack" in your browser's \
 	local storage to keep track of the document to which some buttons must return.
+
+# master.bulletins ############################################################
+
+master.menu.bulletins.list = Bulletins list
+master.menu.bulletins.create = Create a bulletin
+
+master.menu.anonymous.lobatoBulletin.list = Lobato's bulletins list
+master.menu.anonymous.lobatoBulletin.create = Lobato's bulletin create
+
+master.menu.anonymous.garridoBulletin.list = Garrido's bulletins list
+master.menu.anonymous.garridoBulletin.create = Garrido's bulletin create
+
+master.menu.anonymous.brionesBulletin.list = Briones' bulletins list
+master.menu.anonymous.brionesBulletin.create = Briones' bulletin create
+
+master.menu.anonymous.guerreroBulletin.list = Guerrero's bulletins list
+master.menu.anonymous.guerreroBulletin.create =  Guerrero's bulletin create
+
+master.menu.anonymous.horrilloBulletin.list = Horrillo's bulletins list
+master.menu.anonymous.horrilloBulletin.create = Horrillo's bulletin create
+
+master.menu.anonymous.perezBulletin.list = Perez's bulletins list
+master.menu.anonymous.perezBulletin.create = Perez's bulletin create

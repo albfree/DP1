@@ -37,10 +37,35 @@
 			<acme:menu-suboption code="master.menu.anonymous.perezBulletin.list" action="/anonymous/perez-bulletin/list" />
 			<acme:menu-suboption code="master.menu.anonymous.perezBulletin.create" action="/anonymous/perez-bulletin/create" />
 			<acme:menu-separator />
-			<acme:menu-separator />
+		</acme:menu-option>
+
+		<acme:menu-option code="master.menu.bulletins.list" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.lobatoBulletin.list" action="/anonymous/lobato-bulletin/list" />
-			<acme:menu-separator/>
+			<acme:menu-separator />
+			<acme:menu-suboption code="master.menu.anonymous.garridoBulletin.list" action="/anonymous/garrido-bulletin/list" />
+			<acme:menu-separator />
+			<acme:menu-suboption code="master.menu.anonymous.brionesBulletin.list" action="/anonymous/briones-bulletin/list" />
+			<acme:menu-separator />
+			<acme:menu-suboption code="master.menu.anonymous.guerreroBulletin.list" action="/anonymous/guerrero-bulletin/list" />
+			<acme:menu-separator />
+			<acme:menu-suboption code="master.menu.anonymous.horrilloBulletin.list" action="/anonymous/horrillo-bulletin/list" />
+			<acme:menu-separator />
+			<acme:menu-suboption code="master.menu.anonymous.perezBulletin.list" action="/anonymous/perez-bulletin/list" />
+		</acme:menu-option>
+
+
+		<acme:menu-option code="master.menu.bulletins.create" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.lobatoBulletin.create" action="/anonymous/lobato-bulletin/create" />
+			<acme:menu-separator />
+			<acme:menu-suboption code="master.menu.anonymous.garridoBulletin.create" action="/anonymous/garrido-bulletin/create" />
+			<acme:menu-separator />
+			<acme:menu-suboption code="master.menu.anonymous.brionesBulletin.create" action="/anonymous/briones-bulletin/create" />
+			<acme:menu-separator />
+			<acme:menu-suboption code="master.menu.anonymous.guerreroBulletin.create" action="/anonymous/guerrero-bulletin/create" />
+			<acme:menu-separator />
+			<acme:menu-suboption code="master.menu.anonymous.horrilloBulletin.create" action="/anonymous/horrillo-bulletin/create" />
+			<acme:menu-separator />
+			<acme:menu-suboption code="master.menu.anonymous.perezBulletin.create" action="/anonymous/perez-bulletin/create" />
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
